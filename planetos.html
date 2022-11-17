@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            /* width: 100%; */
+        }
+
+        .img {
+            display: block;
+            padding: 10px;
+        }
+
+        .galaxy {
+            background-image: url(background.png);
+            position: relative;
+            height: 800px;
+            width: 1200px;
+            margin: 0;
+        }
+
+        .planet1,
+        .planet2,
+        .planet3 {
+            display: inline-block;
+        }
+
+        #position {
+            position: absolute;
+        }
+
+        .sun {
+            left: 119px;
+            top: 32px;
+        }
+
+        .earth {
+            left: 378px;
+            top: 47px;
+        }
+
+        .moon {
+            left: 663px;
+            top: 48px;
+        }
+
+        .mars {
+            left: 943px;
+            top: 44px;
+        }
+
+        .jupiter {
+            left: 136px;
+            top: 272px;
+        }
+
+        .pluto {
+            left: 378px;
+            top: 266px;
+        }
+
+        .saturn {
+            left: 625px;
+            top: 272px;
+        }
+
+        .neptune {
+            left: 957px;
+    top: 258px;
+        }
+
+        .mercury {
+            left: 113px;
+            top: 503px;
+        }
+
+        .blue {
+            left: 319px;
+            top: 493px;
+        }
+
+        .venus {
+            left: 691px;
+            top: 493px;
+        }
+
+        .comet {
+            left: 949px;
+            top: 437px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="galaxy">
+        <div class="planet1">
+            <img src="1.png" alt="Sun" class="sun" id="position">
+            <img src="2.png" alt="Earth" class="earth" id="position">
+            <img src="3.png" alt="Moon" class="moon" id="position">
+            <img src="5.png" alt="Mars" class="mars" id="position">
+        </div>
+        <div class="planet2">
+            <img src="6.png" alt="Jupiter" class="jupiter" id="position">
+            <img src="7.png" alt="Pluto" class="pluto" id="position">
+            <img src="8.png" alt="Saturn" class="saturn" id="position">
+            <img src="9.png" alt="Neptune" class="neptune" id="position">
+        </div>
+        <div class="planet3">
+            <img src="10.png" alt="Mercury" class="mercury" id="position">
+            <img src="11.png" alt="Blue" class="blue" id="position">
+            <img src="12.png" alt="Venus" class="venus" id="position">
+            <img src="13.png" alt="Comet" class="comet" id="position">
+        </div>
+    </div>
+</body>
+
+</html>
